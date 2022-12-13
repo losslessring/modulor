@@ -1,0 +1,10 @@
+{
+    "ts-node": {
+      "transpileOnly": true
+    },
+    "compilerOptions": {
+
+        "typeRoots" : ["./node_modules/@types", "./typings"]
+        
+    }
+}

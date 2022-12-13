@@ -1,0 +1,31 @@
+{
+  "name": "modulor",
+  "version": "1.0.0",
+  "description": "Windows in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start": "nodemon -r ts-node/register app.ts",
+    "start:dev": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losslessring/modulor.git"
+  },
+  "keywords": [
+    "windows",
+    "browser"
+  ],
+  "author": "losslessring@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/losslessring/modulor/issues"
+  },
+  "homepage": "https://github.com/losslessring/modulor#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.14",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
